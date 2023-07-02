@@ -1,0 +1,155 @@
+#asusVideo {
+    width: 51vw;
+    height: 50vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: fill;
+    /* -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px); */
+}
+
+#alienwareVideo {
+    width: 51vw;
+    height: 50vh;
+    object-fit: cover;
+    position: fixed;
+    left: 746px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: fill;
+    /* -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px); */
+}
+
+#razerVideo {
+    width: 51vw;
+    height: 50vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 380px;
+    bottom: 0;
+    z-index: -1;
+    object-fit: fill;
+    /* -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px); */
+}
+
+#omenVideo {
+    width: 51vw;
+    height: 50vh;
+    object-fit: cover;
+    position: fixed;
+    left: 746px;
+    right: 0;
+    top: 380px;
+    bottom: 0;
+    z-index: -1;
+    object-fit: fill;
+    /* -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px); */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.v11_2 {
+    width: 388px;
+    height: 100px;
+    background: url("./assets/asuslogo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 170px;
+    left: 170px;
+    overflow: hidden;
+}
+
+.v11_2:hover {
+    transform: scale(0.9, 0.9);
+    animation-duration: 500ms;
+
+}
+
+.v11_3 {
+    width: 388px;
+    height: 100px;
+    background: url("./assets/dell.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 170px;
+    left: 1000px;
+    overflow: hidden;
+}
+
+.v11_3:hover {
+    transform: scale(0.9, 0.9);
+    animation-duration: 500ms;
+
+}
+
+.v11_4 {
+    width: 440px;
+    height: 100px;
+    background: url("./assets/razerlogo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 550px;
+    left: 150px;
+    overflow: hidden;
+}
+
+.v11_4:hover {
+    transform: scale(0.9, 0.9);
+    animation-duration: 500ms;
+
+}
+
+.v11_5 {
+    width: 200px;
+    height: 200px;
+    background: url("./assets/hp2logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 500px;
+    left: 1050px;
+    overflow: hidden;
+}
+
+.v11_5:hover {
+    transform: scale(0.9, 0.9);
+    animation-duration: 500ms;
+
+}

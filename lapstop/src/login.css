@@ -1,0 +1,28 @@
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+        background-color: aqua;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
+
+.formbox {
+    width: 400px;
+}
+
+.Auth-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body {
+    background-image: url('assets/ROG\ Moonlight\ White\ 02_Wallpaper\ 1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
